@@ -32,12 +32,12 @@ const App = () => {
   return (
     <div id="main">
       Email
-      <input id="inputEmail" type="text" value={} ref={inputEmail} onChange={handleSubmit}/><br/>
+      <input id="inputEmail" type="text" value={""} ref={inputEmail} onChange={handleSubmit}/><br/>
       Password
-      <input id="inputPassword" type="text" value={} ref={inputPassword} onChange={handleSubmit}/><br/>
+      <input id="inputPassword" type="text" value={""} ref={inputPassword} onChange={handleSubmit}/><br/>
       <button id="submitButton" onClick={handleSubmit}>Submit</button><br/>
-      <p id="emailText">Your Email : {emailValue}</p>
-      <p id ="passwordText">Your Password : {PasswordValue}</p>
+      <p id="emailText">Your Email : {}</p>
+      <p id ="passwordText">Your Password : {}</p>
       
     </div>
   )
