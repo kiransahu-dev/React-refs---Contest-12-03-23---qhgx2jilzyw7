@@ -10,7 +10,6 @@ const App = () => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-  }
   
   const emailValue = inputEmail.current.value;
   const passwordValue = inputPassword.current.value;
