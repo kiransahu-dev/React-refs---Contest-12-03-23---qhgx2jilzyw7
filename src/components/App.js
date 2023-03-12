@@ -8,8 +8,7 @@ const App = () => {
   const emailText = useRef(null);
   const passwordText = useRef(null);
   
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
   
   const emailValue = inputEmail.current.value;
   const passwordValue = inputPassword.current.value;
